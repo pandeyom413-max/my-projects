@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  background: #1abc9c;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 150px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  background: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a085;
+}
